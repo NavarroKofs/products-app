@@ -6,6 +6,8 @@ It's developed with ReactJS and it contains 2 routes:
 1. **Search Page:** Allows customers to find the items according to their search.
 2. **Not Found**: When you visit other URL than "/" you can see the Not Found message.
 
+The searcher is using RxJs in order to avoid the filtering when the user type a letter and also use a debounce to avoid multiple executions.
+
 <h3>Technologies<h3>
 <ul>
     <li>React.js: "^18.2.0"

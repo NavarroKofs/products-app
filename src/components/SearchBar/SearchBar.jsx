@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { SearchBarStyle } from "./styles.css";
 
 const SearchBar = ({ onChange = () => {} }) => {
+  const [isFocus, setIsFocus] = useState(false);
+
   return (
-    <div className="searchbar-container" css={SearchBarStyle}>
+    <div
+      className={`searchbar-container ${isFocus ? "focus" : ""}`}
+      css={SearchBarStyle}
+    >
       <input
+        onFocus={() => setIsFocus(true)}
+        onBlur={() => setIsFocus(false)}
         className="searchbar-input"
         type="text"
         onChange={onChange}

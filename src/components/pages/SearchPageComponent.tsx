@@ -3,6 +3,7 @@ import ProductDetails from "../ProductDetails";
 import ProductList from "../ProductList";
 import SearchBar from "../SearchBar";
 import useGetProducts from "../../hooks/useGetProducts";
+import Loading from "../Loading/Loading";
 import { AppStyles } from "./styles.css";
 import { BehaviorSubject } from "rxjs";
 import {
@@ -12,7 +13,6 @@ import {
   filter,
 } from "rxjs/operators";
 import loadingIcon from "../../assets/loading-icon.svg";
-import Loading from "../Loading/Loading";
 const defaultImgUrl = loadingIcon;
 
 const START = 0;
@@ -68,10 +68,8 @@ function SearchPageComponent() {
         .subscribe((obj) => {
           let data = filterProducts(obj.products, obj.value);
           setSearch(data);
-          console.log("data", data);
           let filteredData = getFirstElements(data);
           setPrevSearch(filteredData);
-          console.log("filteredData", filteredData);
         });
 
       return () => {

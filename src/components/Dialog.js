@@ -26,7 +26,7 @@ class Dialog extends Component {
       justify-content: center;
       align-items: center;
 	  overflow: hidden !important;
-	  background-color: black;
+	  background-color: rgba(0, 0, 0, 0.8);
     `;
 
 		return ReactDOM.createPortal( this.props.children, this.el );

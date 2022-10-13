@@ -39,6 +39,7 @@ const ProductList = ({
               key={product.id}
               productImg={product.img}
               productId={product.id}
+              productPrice={product.price}
               onClickHandler={onClickHandler}
             />
           );

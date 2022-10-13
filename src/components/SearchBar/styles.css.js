@@ -8,6 +8,7 @@ export const SearchBarStyle = css`
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
 
     .searchbar-input {
         font-size: 1.8vh;

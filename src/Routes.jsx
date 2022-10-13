@@ -1,5 +1,5 @@
-import React, { Suspense, lazy, useEffect, useRef } from "react";
-import { Route, Switch, withRouter } from "react-router-dom";
+import React, { lazy } from "react";
+import { Route, Switch } from "react-router-dom";
 const SearchPageComponent = lazy(() =>
   import("./components/pages/SearchPageComponent")
 );

@@ -8,12 +8,12 @@ It's developed with ReactJS and it contains 2 rutas:
 
 <h3>Technologies<h3>
 <ul>
-    <li>React.js: "^18.2.0"<li>
-    <li>React Router Dom: "^5.2.0"<li>
-    <li>RxJs: "^7.5.7"<li>
-    <li>Axios: "^1.1.2"<li>
-    <li>Emotion: "^11.10.4"<li>
-    <li>React infinite scroll component: "^6.1.0"<li>
+    <li>React.js: "^18.2.0"
+    <li>React Router Dom: "^5.2.0"
+    <li>RxJs: "^7.5.7"
+    <li>Axios: "^1.1.2"
+    <li>Emotion: "^11.10.4"
+    <li>React infinite scroll component: "^6.1.0"
 <ul>
 
 ## Installation and Setup Instructions 💻
@@ -26,6 +26,8 @@ It's developed with ReactJS and it contains 2 rutas:
 https://gnk.onm.mybluehost.me/products_api/
 
 ## Github repository
+
+https://github.com/NavarroKofs/products-app
 
 ## Author
 

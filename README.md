@@ -1,10 +1,10 @@
 <h1>Products App 🤖</h1>
-Products-app es una demo de un catálogo de una tienda en linea que permite buscar los artículos por su título y ver el detalle de un artículo seleccionado.
+Products-app is a demo of an online store catalog that allows you to search for items by title and view the details of a selected item.
 
-It's developed with ReactJS and it contains 2 rutas:
+It's developed with ReactJS and it contains 2 routes:
 
 1. **Search Page:** Allows customers to find the items according to their search.
-2. **Not Found**: When you visit other URL than "/" you can see the Not Page message.
+2. **Not Found**: When you visit other URL than "/" you can see the Not Found message.
 
 <h3>Technologies<h3>
 <ul>
